@@ -1,6 +1,6 @@
 Feature: consult
 
-  @BLALA
+  @CCC
   Scenario: confirm form
     When I click consultation button
     And fill in the form

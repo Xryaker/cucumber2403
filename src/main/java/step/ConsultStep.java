@@ -25,7 +25,7 @@ public class ConsultStep extends BaseClass {
         }
     }
 
-    @Before()
+    @Before("@CCC")
     public void start() {
         if (!driver.getCurrentUrl().equals(mainUrl)) {
             driver.navigate().to(mainUrl);

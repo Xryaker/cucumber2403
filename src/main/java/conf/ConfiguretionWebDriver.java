@@ -29,7 +29,7 @@ public class ConfiguretionWebDriver {
         options.addArguments("--start-maximized");
         options.addArguments("--incognito");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     private static void createChrome() {
